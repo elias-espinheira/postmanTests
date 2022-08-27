@@ -1,2 +1,0 @@
-# postmanTests
-first test
