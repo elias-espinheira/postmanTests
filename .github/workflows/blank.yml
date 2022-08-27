@@ -41,7 +41,7 @@ jobs:
       # Run the POSTMAN collection
       - name: Run POSTMAN collection
         run: |
-          newman run mycollection.postman_collection.json -e workspace.postman_globals.json -r htmlextra --reporter-htmlextra-export Testes/htmlreport.html --reporter-htmlextra-darkTheme  > testResults/runreport1.html
+          newman run mycollection.postman_collection.json -e workspace.postman_globals.json -r htmlextra --reporter-htmlextra-export Testes/htmlreport.html --reporter-htmlextra-darkTheme  > Testes/runreport1.html
 
 
 
